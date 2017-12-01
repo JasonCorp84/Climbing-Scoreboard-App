@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar{
+  margin: 0 auto;
+}
+
+.headingTitle{
+  text-align: center;
+}
+
+.homePage {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.login{
+  display: inline;
+}
+
+.signup{
+  display:inline;
+}
+
+/* user heading for ranking page */
+.userHeading{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* entire table */
+.userTable{
+text-align: center;
+margin: 20px;
+}
+
+/* heading for each column */
+.listHeading{
+  text-align: center;
+}
+
+/* containing div for table */
+.tableDiv{
+  margin: 0 auto;
+}
+
+.dashboardButton{
+  float: right;
+}
+
+.buttonContainer{
+  margin-top: 30px;
+  left: 42%;
+}
+
+.formContainer{
+  margin-top:20px;
+}
+
+.signUpHeader{
+  text-align: center;
+  padding: 30px;
+}
+
+.bio{
+  overflow:hidden;
+}
+
+.signUpForm{
+  margin: 40px;
+}
+
+.loginDiv{
+  margin-left: 35%;
+  margin-top: 40px;
+}
+
+.password{
+  margin-left: 30px;
+}
+
+.userFormRequired{
+  color: red;
+}
+
+.listRows:hover{
+  background-color: lightgray;
+}
+
+.userTitle{
+  text-align: center;
+}
+
+.detail{
+  background-color: Lightgray;
+}
+
+.climberName{
+  margin-left: 50px;
+}
+
+.routeListTable{
+  margin-top: 20px;
+}
+
+.userRoutes{
+  font-weight: normal;
+}
+
+.edit-btn{
+  margin-top: 20px;
+}
+ 
+.addButtonContainer{
+  margin-bottom: 30px;
+}
+
+.routeBody{
+  border-bottom: 2px lightgray solid; 
+}
+
+.loginIncorrect{
+  display: inline;
+  color: red;
+}

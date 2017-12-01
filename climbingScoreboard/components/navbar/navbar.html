@@ -1,0 +1,19 @@
+<div class="navbar navbar-default">
+
+  <ul class="nav navbar-nav navBar">
+    <li>
+      <a ui-sref="app.home">Home</a>
+    </li>
+    <li>
+      <a ui-sref="app.users">World Ranking</a>
+    </li>
+    <li class="dashboardButton" ng-show="userService.getCurrentUser()" ng-click="dashboardClick()">
+      <a>User Dashboard</a>
+    </li>
+
+    <li class="logOut" ng-show="userService.getCurrentUser()" ng-click="logOut()">
+      <a >Log Out</a>
+    </li>
+  </ul>
+
+</div>
